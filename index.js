@@ -3,7 +3,7 @@ const client = new Discord.Client();
 const prefix = "$"
 
 client.on('ready', () => {
-  client.user.setGame('a?help ', 'https://www.twitch.tv/zzstefanro321')
+  client.user.setGame('$help ', 'https://www.youtube.com/channel/UCa1geOnxB31_D_LhT932csg?view_as=subscriber')
 })   
 
   client.on('message', message =>{
