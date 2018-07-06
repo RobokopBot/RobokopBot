@@ -137,7 +137,7 @@ message.delete() }})}}} });
 
 client.on('message', msg => {
     if (msg.content === '$invite') {
-      msg.channel.send(' `Invite` **Robokop** https://discordapp.com/api/oauth2/authorize?client_id=463816126728765440&permissions=8&scope=bot  :tada:');
+      msg.channel.send(' `Invite` **Robokop** https://discordapp.com/api/oauth2/authorize?client_id=464366413105070081&permissions=8&scope=bot :tada:');
     }
   });
 
