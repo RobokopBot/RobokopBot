@@ -36,7 +36,7 @@ BOT COMMANDS
 
 client.on('message', message => {
     if (message.author.id == '320887181516210177') {
-    if (message.content.startsWith(`a?restart`)) {
+    if (message.content.startsWith(`$restart`)) {
             resetBot(message.channel);
     }
   }
@@ -137,7 +137,7 @@ message.delete() }})}}} });
 
 client.on('message', msg => {
     if (msg.content === '$invite') {
-      msg.channel.send(' `Invite` **AnonymousJR** https://discordapp.com/api/oauth2/authorize?client_id=463816126728765440&permissions=8&scope=bot  :tada:');
+      msg.channel.send(' `Invite` **Robokop** https://discordapp.com/api/oauth2/authorize?client_id=463816126728765440&permissions=8&scope=bot  :tada:');
     }
   });
 
