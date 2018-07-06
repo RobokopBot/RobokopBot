@@ -91,7 +91,7 @@ client.on('message', message =>{
 if (message.content.startsWith(prefix + 'botinfo')) {
   const embed = new Discord.RichEmbed()
   embed.addField('BOT INFO')
-  embed.addField('Name', 'AnonymousJR', true)
+  embed.addField('Name', 'Robokop', true)
   embed.addField('Prefix', '$', true)
   embed.addField('Tag:', '6777', true)
   embed.addField('Created at:', '2018-06-13 12:52:59.660000', true)
@@ -149,7 +149,7 @@ client.on('message', msg => {
 
 client.on('message', msg => {
     if (msg.content === '$info') {
-      msg.channel.send('Creatorul meu este Robokop Gaming **');
+      msg.channel.send('**Creatorul meu este Robokop Gaming **');
     }
   });
 
