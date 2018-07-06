@@ -143,7 +143,7 @@ client.on('message', msg => {
 
 client.on('message', msg => {
     if (msg.content === '$support') {
-      msg.channel.send('**Support server ---> https://discord.gg/aSDJ87**');
+      msg.channel.send('**Support server ---> https://discord.gg/vx4Y29H**');
     }
   });
 
