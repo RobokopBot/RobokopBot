@@ -3,7 +3,7 @@ const client = new Discord.Client();
 const prefix = "$"
 
 client.on('ready', () => {
-  client.user.setGame('$help ', 'https://www.youtube.com/channel/UCa1geOnxB31_D_LhT932csg?view_as=subscriber')
+  client.user.setGame('$help ', '')
 })   
 
   client.on('message', message =>{
@@ -26,7 +26,7 @@ client.on('message', message =>{
     const embed = new Discord.RichEmbed()
     .setTitle('BOT INFO')
     .setDescription(`•prefix --> $
-BOT COMMANDS
+COMENZI BOT
 • || $support || $info || $say || $ping || $serverinfo || $restart || $invite || $botinfo || `)
     .setColor('RANDOM')
    message.channel.sendEmbed(embed);
@@ -97,7 +97,7 @@ if (message.content.startsWith(prefix + 'botinfo')) {
   embed.addField('Created at:', '2018-06-13 12:52:59.660000', true)
   embed.addField('ID', '300268467322486785', true)
   embed.addField('Made with:', 'Node')
-  embed.addField('Creator', 'Robokop', true)
+  embed.addField('Creator', 'Robokop Gaming', true)
   embed.setColor('RANDOM')
   embed.setThumbnail(message.guild.iconURL)
   message.channel.sendEmbed(embed)
@@ -122,7 +122,7 @@ client.on('message', message =>{
 });  
    
   client.on('message', message => {    
-    if(message.content.startsWith('a?mass')) {
+    if(message.content.startsWith('$mass')) {
     if(message.author.id === "320887181516210177" ||
 message.author.id === "320887181516210177"){
        let args = message.content.split(" ").slice(1);         
@@ -137,7 +137,7 @@ message.delete() }})}}} });
 
 client.on('message', msg => {
     if (msg.content === '$invite') {
-      msg.channel.send(' `Invite` **Robokop** https://discordapp.com/api/oauth2/authorize?client_id=464366413105070081&permissions=8&scope=bot :tada:');
+      msg.channel.send(' **Invite** **Robokop** https://discordapp.com/api/oauth2/authorize?client_id=464366413105070081&permissions=8&scope=bot :tada:');
     }
   });
 
