@@ -35,7 +35,7 @@ COMENZI BOT
  if ( message.content.startsWith(prefix+ "youtube")) {
     const embed = new Discord.RichEmbed()
     .setTitle('You Tube')
-    .setDescription(`•prefix --> $
+    .setDescription(`•Robokop Gaming
 Canalul nostru de YouTube!!!!
 • https://www.youtube.com/channel/UCa1geOnxB31_D_LhT932csg?view_as=subscriber `)
     .setColor('RANDOM')
