@@ -32,6 +32,16 @@ COMENZI BOT
    message.channel.sendEmbed(embed);
   }
 
+ if ( message.content.startsWith(prefix+ "youtube")) {
+    const embed = new Discord.RichEmbed()
+    .setTitle('You Tube')
+    .setDescription(`•prefix --> $
+Canalul nostru de YouTube!!!!
+• https://www.youtube.com/channel/UCa1geOnxB31_D_LhT932csg?view_as=subscriber `)
+    .setColor('RANDOM')
+   message.channel.sendEmbed(embed);
+  }
+
 });
 
 client.on('message', message => {
