@@ -17,11 +17,6 @@ client.on('ready', () => {
    message.channel.sendEmbed(embed);
   }
 
-client.on('message', msg => {
-    if (msg.content === '$youtube') {
-      msg.channel.send('Canalul nostru de YouTube este https://www.youtube.com/channel/UCa1geOnxB31_D_LhT932csg?view_as=subscriber');
-    }
-
 });
 
 client.on('message', message =>{
