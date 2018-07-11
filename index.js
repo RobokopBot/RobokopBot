@@ -158,6 +158,12 @@ client.on('message', msg => {
   });
 
 client.on('message', msg => {
+    if (msg.content === '$yt') {
+      msg.channel.send('**Canalul nostru de youtube https://www.youtube.com/channel/UCa1geOnxB31_D_LhT932csg?view_as=subscriber **');
+    }
+    });
+
+client.on('message', msg => {
     if (msg.content === '$info') {
       msg.channel.send('**Creatorul meu este Robokop Gaming **');
     }
@@ -173,7 +179,7 @@ client.on('guildMemberAdd', member => {
         .setColor('#FF000')
         .setThumbnail(memberavatar)
         .addField('✘ | Name: ', `${member}`)
-        .addField('✘ | Welcome', `**:v: Bine ai venit pe 𝐀𝐧𝐨𝐧𝐲𝐦𝐨𝐮𝐬 𝐖𝐨𝐫𝐥𝐝!:smiley: :heavy_check_mark:**`)
+        .addField('✘ | Welcome', `**:v: Bine ai venit pe Robokop 𝐖𝐨𝐫𝐥𝐝!:smiley: :heavy_check_mark:**`)
         .setTimestamp()
 
         channel.sendEmbed(embed);
