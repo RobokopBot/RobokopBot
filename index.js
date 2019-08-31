@@ -27,7 +27,11 @@ client.on('message', message =>{
     .setTitle('BOT INFO')
     .setDescription(`•prefix --> $
 COMENZI BOT
-• || $support || $info || $say || $ping || $serverinfo || $restart || $invite || $botinfo || `)
+• ||          ||       ||      ||       ||             ||          ||         ||          ||
+• ||          ||       ||      ||       ||             ||          ||         ||          ||
+• || $support || $info || $say || $ping || $serverinfo || $restart || $invite || $botinfo ||
+• ||          ||       ||      ||       ||             ||          ||         ||          ||
+• ||          ||       ||      ||       ||             ||          ||         ||          || `)
     .setColor('RANDOM')
    message.channel.sendEmbed(embed);
   }
