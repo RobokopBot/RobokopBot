@@ -1,1 +1,1 @@
-# RobokopBot
+# SanyoBot
